@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: auto;
+    background: #e9eef5;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-save, .btn-return {
+    padding: 8px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-save {
+    background-color: #2c89ff;
+}
+
+.btn-return {
+    background-color: gray;
+}

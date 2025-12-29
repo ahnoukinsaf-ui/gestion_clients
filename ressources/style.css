@@ -1,0 +1,39 @@
+.bouton {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.bouton:hover {
+    background-color: darkgreen;
+}
+.tableau {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableau th, .tableau td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+.tableau th {
+    background-color: #f2f2f2;
+}
+.formulaire input, 
+.formulaire select {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.formulaire label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container {
+    margin-top: 20px;
+}
